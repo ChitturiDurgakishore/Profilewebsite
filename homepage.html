@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishore Profile Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .wholepage {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: fit-content;
+        }
+        .details {
+            display: flex;
+            align-items: center;
+            
+            width: 100%;
+            height: fit-content;
+            border-radius: 25px;
+            background-color:cornsilk;
+            padding: 5px;
+            position: fixed;
+            margin: 5px;
+            margin-top: 10px;
+            
+
+        }
+        h1 {
+            color:darkorchid;
+            margin: 5px;
+            margin-left: 150px;
+            width: fit-content;
+            height: fit-content;
+            border-radius: 20px;
+            display: flex;
+        }
+        h3{
+            color:rgb(29, 26, 232);
+            margin: 5px;
+            margin-top: 15px;
+            width: fit-content;
+            height: fit-content;
+        }
+        .details button {
+            display: flex;
+            padding: 5px;
+            margin: 5px;
+            margin-right: 30px;
+            background-color:burlywood;
+            border: 2px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+        .details button:first-of-type {
+            margin-left: auto;
+        }
+        .details button:hover {
+            background-color: lightgray;
+        }
+        .mainpage {
+            display: flex;
+
+            margin-top: 100px;
+        }
+        .mainpage img {
+            width: 30%;
+            height: 30%;
+            border-radius: 100%;
+            margin: auto;
+
+        }
+        .submainpage{
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            color: white;
+            background-color:transparent;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid white;
+            border-radius: 20px;
+        }
+        .submainpage h2{
+            font-size:xx-large;
+        }
+        .submainpage p{
+            font-size: large;
+            font-weight:lighter;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .mainpage2{
+             display: flex;
+             margin-top: 50px;
+             margin-bottom: 20px;
+        }
+        .mainpage2 .submainpage2{
+            display: flex;
+            position: relative;
+            flex-direction: row;
+            align-items: start;
+            padding: 50px;
+            color: white;
+            background-color:transparent;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid white;
+            border-radius: 20px;
+
+        }
+        .mainpage2 .submainpage2 button{
+            padding: 50px;
+            margin: 20px;
+            border: 3px solid wheat;
+            font-size: large;
+            border-radius: 90%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+      .linkedin{
+            background-color: black;
+            color:white;
+      }
+      .linkedin:hover{
+        background-color:dodgerblue ;
+        transition: 0.5s ease-in-out;
+      }
+      .linkedin:not(:hover){
+        transition: 0.5s ease-in-out;
+      }
+      .github{
+        background-color: black;
+        color: white;
+      }
+      .github:hover{
+        background-color: white;
+        color: black;
+        transition: 0.5s ease-in-out;
+      }
+      .github:not(:hover){
+        transition: 0.5s ease-in-out;
+      }
+      .projects{
+        background-color:black;
+        color:white;
+      }
+    </style>
+</head>
+<body>
+   <div class="wholepage">
+        <div class="details">
+            <h1>DURGA KISHORE CHITTURI </h1><span><h3> - Full Stack Developer</h3></span>
+            <button> <a href='https://drive.google.com/file/d/1StAbSMJJC5hx0k5y2JCj66Gzotq4CcLO/view?usp=drive_link'>RESUME</a></button>
+            <a href="mailto:kishorespec@gmail.com"><button>CONTACT</button></a>
+        </div>
+        <div class="mainpage">
+            <img src="kishore1.jpeg">
+            <div class="submainpage">
+                <div><h2>Kishore</h2></div>
+                <div><p>Btech student</p>
+                <p> College : ST.Peters engineering college</p>
+                <p>Branch : CSG </p>
+                <p>CGPA   : 8.7 (current) </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="mainpage2">
+            <div class="submainpage2">
+                <button class="projects"><a href='https://github.com/ChitturiDurgakishore'>PROJECTS</a></button>
+                <button class="linkedin"><a href='linkedin.com/in/durga-kishore-chitturi'>LINKEDIN</a></button>
+                <button class="github"><a href='https://github.com/ChitturiDurgakishore'> GITHUB</a></button>
+                
+            </div>
+        </div>
+   </div>
+</body>
+</html>
