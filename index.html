@@ -59,8 +59,12 @@
             border: 2px solid black;
             border-radius: 10px;
             cursor: pointer;
-
+            
         }
+        .wholepage button a{
+            text-decoration: none;
+        }
+
         .details button:first-of-type {
             margin-left: auto;
         }
@@ -80,6 +84,14 @@
             border: 5px solid red;
             
         }
+        .mainpage img:hover{
+            border:5px solid limegreen;
+            transition: 0.5s ease-in-out;
+        }
+        .mainpage img:not(:hover){
+            transition: 0.5s ease-in-out;
+        }
+
         .submainpage{
             display: flex;
             flex-direction: column;
@@ -91,13 +103,19 @@
             margin-right: auto;
             border: 2px solid white;
             border-radius: 20px;
+            transition: 0.5s ease-in-out;
+        } 
+    
+        .submainpage:not(:hover){
+            transition: 0.5s ease-in-out;
         }
         .submainpage h2{
             font-size:xx-large;
         }
         .submainpage p{
             font-size: large;
-            font-weight:lighter;
+            font-weight: bolder;
+        
             font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
         .mainpage2{
@@ -147,6 +165,7 @@
         background-color: white;
         color: black;
         transition: 0.5s ease-in-out;
+        border: red;
       }
       .github:not(:hover){
         transition: 0.5s ease-in-out;
@@ -154,6 +173,15 @@
       .projects{
         background-color:black;
         color:white;
+        border: 2px solid blue;
+      }
+      .projects:hover{
+        background-color: white;
+        color:black;
+        transition: 0.5s ease-in-out;
+      }
+      .projects:not(:hover){
+        transition: 0.5s ease-in-out;
       }
     </style>
 </head>
@@ -162,7 +190,7 @@
         <div class="details">
             <h1>DURGA KISHORE CHITTURI </h1><span><h3> - Full Stack Developer</h3></span>
             <button> <a href='https://drive.google.com/file/d/1StAbSMJJC5hx0k5y2JCj66Gzotq4CcLO/view?usp=drive_link'>RESUME</a></button>
-            <a href="mailto:kishorespec@gmail.com"><button>CONTACT</button></a>
+            <button><a href="mailto:kishorespec@gmail.com">CONTACT</a></button>
         </div>
         <div class="mainpage">
             <img src="kishore1.jpeg">
